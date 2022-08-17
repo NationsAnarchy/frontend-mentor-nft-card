@@ -60,7 +60,7 @@ main {
 
 .time-left {
     color: var(--soft-blue);
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .creation {
