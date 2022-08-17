@@ -1,0 +1,103 @@
+.attribution {
+    color: var(--soft-blue);
+    font-size: 12px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+:root {
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --main-bg: hsl(217, 54%, 11%);
+    --card-bg: hsl(216, 50%, 16%);
+    --line-color: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body {
+    background-color: var(--main-bg);
+    font-family: 'Outfit', sans-serif;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    background-color: var(--card-bg);
+    max-width: 375px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    text-align: left;
+    padding: 30px 25px 30px 25px;
+}
+
+.nft-name {
+    color: var(--white);
+    font-weight: 600;
+}
+
+.description {
+    color: var(--soft-blue);
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: -5px;
+}
+
+.item-price {
+    color: var(--cyan);
+    font-weight: 600;
+}
+
+.time-left {
+    color: var(--soft-blue);
+    font-weight: 600;
+}
+
+.creation {
+    color: var(--soft-blue);
+}
+
+.creator-name {
+    color: var(--white);
+}
+
+.avatar {
+    height: 2.5rem;
+    padding-right: 1.25rem;
+}
+
+.pricing-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.creator-container {
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.pricing-component {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.icon,
+.item-price,
+.time-left {
+    vertical-align: middle;
+    display: inline-block;
+}
