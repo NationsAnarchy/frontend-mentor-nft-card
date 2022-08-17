@@ -89,15 +89,9 @@ main {
     align-items: center;
 }
 
-.pricing-component {
+.pricing-component,
+.time-component {
     display: flex;
     align-items: center;
     gap: 8px;
-}
-
-.icon,
-.item-price,
-.time-left {
-    vertical-align: middle;
-    display: inline-block;
 }
