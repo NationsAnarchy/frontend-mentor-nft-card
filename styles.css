@@ -33,7 +33,6 @@ main {
 .card {
     background-color: var(--card-bg);
     max-width: 350px;
-    min-height: 500px;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -42,13 +41,31 @@ main {
     padding: 30px 25px 30px 25px;
 }
 
+.image-overlay {
+    display: inline-block;
+    height: 350px;
+    background-color: var(--cyan);
+}
+
 .image {
     max-width: 350px;
+    transition: 0.3s ease-in;
+}
+
+.image:hover {
+    opacity: .8;
+    cursor: pointer;
+    transition: 0.3s ease-in;
 }
 
 .nft-name {
     color: var(--white);
     font-weight: 600;
+    cursor: pointer;
+}
+
+.nft-name:hover {
+    color: var(--cyan)
 }
 
 .description {
@@ -68,12 +85,22 @@ main {
     font-weight: 400;
 }
 
+.time-left:hover {
+    cursor: pointer;
+    font-weight: 700;
+}
+
 .creation {
     color: var(--soft-blue);
 }
 
 .creator-name {
     color: var(--white);
+}
+
+.creator-name:hover {
+    color: var(--cyan);
+    cursor: pointer;
 }
 
 .avatar {
