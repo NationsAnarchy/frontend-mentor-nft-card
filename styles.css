@@ -33,6 +33,7 @@ main {
 .card {
     background-color: var(--card-bg);
     max-width: 350px;
+    min-height: 500px;
     height: fit-content;
     display: flex;
     flex-direction: column;
